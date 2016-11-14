@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Zad 3</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script>
+        let objectArr = [{
+            name: "name"
+        }, {
+            name: 'mame',
+            age: 23,
+            ID: 1234
+        }, {
+            name: "name",
+            age: 25
+        }];
+
+        objectArr.sort(function(a, b) {
+            if (Object.keys(a).length > Object.keys(b).length) {
+                return 1;
+            }
+        });
+        console.log(objectArr);
+
+    </script>
+</body>
+
+</html>

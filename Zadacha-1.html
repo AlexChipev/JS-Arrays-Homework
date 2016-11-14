@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Zad 1</title>
+</head>
+
+<body>
+    <script>
+        let arr = [0, 2, 3, 5, 12];
+        let flag = true;
+        for (let current of arr) {
+            if (current < 0) {
+                flag = false;
+                break;
+            }
+        }
+        if (!flag) {
+            console.log("There are negative numbers in the array");
+        } else {
+            console.log("There are no negative numbers in the array")
+        }
+    </script>
+</body>
+
+</html>

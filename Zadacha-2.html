@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Zad 2</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script>
+        let arr = [-5, 1, 2, 12, 66];
+        let flag = true;
+        for (let i = 0; i < arr.length-1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                flag = false;
+                break;
+            }
+        }
+        if (!flag) {
+            console.log("The array is not jagged");
+        } else {
+            console.log("The array is jagged");
+        }
+    </script>
+</body>
+
+</html>
